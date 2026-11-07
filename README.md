@@ -2,14 +2,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/WordPress-7.1.3-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
-  <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Docker-Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Desktop" />
   <img src="https://img.shields.io/badge/MariaDB-10.11-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
   <img src="https://img.shields.io/badge/Elementor-Builder-92003B?style=for-the-badge&logo=elementor&logoColor=white" alt="Elementor" />
 </p>
 
 > **CMS Capstone Project**  
-> An enterprise-grade, fully responsive online job recruitment and employment portal built on top of **WordPress** and containerized using **Docker & Docker Compose** (WordPress App, MariaDB, and phpMyAdmin).
+> An enterprise-grade, fully responsive online job recruitment and employment portal built on top of **WordPress** and containerized using **Docker Desktop & Docker Compose** (WordPress App, MariaDB, and phpMyAdmin).
 
 ---
 
