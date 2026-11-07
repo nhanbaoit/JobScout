@@ -19,7 +19,13 @@
 ## 📸 Preview
 
 <p align="center">
+  <b>🌟 Landing Page Overview</b><br />
   <img src="docs/screenshots/careerhub-homepage.png" alt="CareerHub Homepage Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+</p>
+
+<p align="center">
+  <b>📰 News & Career Blog Article Detail</b><br />
+  <img src="docs/screenshots/news-detail.png" alt="CareerHub News Detail Preview" width="100%" style="border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
 </p>
 
 ---
@@ -43,7 +49,7 @@
 - **Containerized Environment:** Fully reproducible local development powered by Docker Compose.
 - **High-Performance Database:** MariaDB 10.11 with persistent volume storage and phpMyAdmin interface.
 - **Customizer & Modular Sections:** Native WordPress Customizer controls allowing section reordering, custom styling, and layout tuning without third-party page builders.
-- **Accessibility (a11y):** Integrated with One Click Accessibility tools ensuring WCAG-compliant readability and navigation.
+- **Responsive & Modular Architecture:** Fluid responsive layout across desktop, tablet, and mobile devices, with modular stylesheets.
 - **Guaranteed Email Delivery:** Integrated with *WP Mail SMTP* and *Contact Form 7* for reliable transactional email delivery (applications, notifications, and inquiries).
 
 ---
@@ -75,12 +81,13 @@ JobScout/
 ├── database.sql          # Pre-configured, production-ready SQL database dump
 ├── docs/                 # Documentation and high-resolution screenshots
 │   └── screenshots/
-│       └── careerhub-homepage.png
+│       ├── careerhub-homepage.png
+│       └── news-detail.png
 ├── docker/
 │   └── uploads.ini       # Optimized PHP runtime settings (64MB upload, 256MB memory)
 └── wordpress/            # WordPress core & source code (mounted directly into container)
     └── wp-content/
-        ├── plugins/      # WP Job Manager, One Click Accessibility, Newsletter, SMTP...
+        ├── plugins/      # WP Job Manager, WP Mail SMTP, Newsletter, Contact Form 7...
         └── themes/       # Custom JobScout theme
 ```
 
@@ -196,6 +203,18 @@ cmd /c "docker exec wordpress_db mariadb-dump -u wp_user -pwp_user_password cms-
 # Wipe database volume completely to reset from scratch
 docker compose down -v
 ```
+
+---
+
+## 👥 Authors & Team Contributors
+
+This capstone project was collaboratively designed, developed, and tested by:
+
+| Full Name | Role & Core Responsibilities | GitHub Profile |
+| :--- | :--- | :--- |
+| **Nguyễn Nhân Bảo** | Project Lead, Auth & Roles, Job Submission & Profile Flow, Docker Architecture | [@nhanbaoit](https://github.com/nhanbaoit) |
+| **Đặng Văn Hà** | News/Blog Detail & Listing Layouts, Sortable Sections, Database Optimization | [@DVHorizon](https://github.com/DVHorizon) |
+| **Thu Trang** | Homepage UI/UX Refinements, Contact Forms & Page Workflows | Team Contributor |
 
 ---
 
