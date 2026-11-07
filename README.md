@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Docker-Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Desktop" />
   <img src="https://img.shields.io/badge/MariaDB-10.11-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Elementor-Builder-92003B?style=for-the-badge&logo=elementor&logoColor=white" alt="Elementor" />
+  <img src="https://img.shields.io/badge/WP_Job_Manager-Plugin-00A0D2?style=for-the-badge&logo=wordpress&logoColor=white" alt="WP Job Manager" />
 </p>
 
 > **CMS Capstone Project**  
@@ -39,7 +39,7 @@
 ### ⚙️ 3. Architecture & Tech Highlights
 - **Containerized Environment:** Fully reproducible local development powered by Docker Compose.
 - **High-Performance Database:** MariaDB 10.11 with persistent volume storage and phpMyAdmin interface.
-- **Visual Page Building:** Integrated with **Elementor**, allowing flexible drag-and-drop landing page design and custom CSS styling.
+- **Customizer & Modular Sections:** Native WordPress Customizer controls allowing section reordering, custom styling, and layout tuning without third-party page builders.
 - **Accessibility (a11y):** Integrated with One Click Accessibility tools ensuring WCAG-compliant readability and navigation.
 - **SMTP & Communications:** Integrated with WP Mail SMTP and Contact Form 7 for reliable transactional email delivery.
 
@@ -60,7 +60,7 @@ JobScout/
 │   └── uploads.ini       # Optimized PHP runtime settings (64MB upload, 256MB memory)
 └── wordpress/            # WordPress core & source code (mounted directly into container)
     └── wp-content/
-        ├── plugins/      # WP Job Manager, Elementor, Newsletter, SMTP, a11y...
+        ├── plugins/      # WP Job Manager, One Click Accessibility, Newsletter, SMTP...
         └── themes/       # Custom JobScout theme
 ```
 
