@@ -5,7 +5,10 @@
   <img src="https://img.shields.io/badge/Docker-Desktop-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Desktop" />
   <img src="https://img.shields.io/badge/MariaDB-10.11-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
   <img src="https://img.shields.io/badge/PHP-8.3-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/WP_Job_Manager-Plugin-00A0D2?style=for-the-badge&logo=wordpress&logoColor=white" alt="WP Job Manager" />
+  <br />
+  <img src="https://img.shields.io/badge/WP_Job_Manager-Recruitment_Core-00A0D2?style=for-the-badge&logo=wordpress&logoColor=white" alt="WP Job Manager" />
+  <img src="https://img.shields.io/badge/WP_Mail_SMTP-Email_Delivery-E85923?style=for-the-badge&logo=mailgun&logoColor=white" alt="WP Mail SMTP" />
+  <img src="https://img.shields.io/badge/Newsletter-Audience_Growth-107C41?style=for-the-badge&logo=minutemailer&logoColor=white" alt="Newsletter" />
 </p>
 
 > **CMS Capstone Project**  
@@ -25,23 +28,40 @@
 
 ### 🎯 1. For Job Seekers
 - **Smart Job Search & Filtering:** Multi-criteria real-time filtering directly on the Hero banner (by keywords, position, skillsets, and geographical location).
-- **Featured Top Jobs:** Curated listings highlighting top career opportunities with key metadata (company logo, role, contract type, location, and brief summary).
+- **Featured Top Jobs:** Curated listings highlighting top career opportunities with rich metadata (salary ranges, contract types, experience levels via *WPJM Extra Fields*).
 - **In-Depth Job Details:** Clean layout detailing responsibilities, qualifications, benefits, and application deadlines.
 - **Online Job Application:** Seamless CV submission and application forms routed directly to hiring teams.
 - **Career Guide & Blog:** Informative articles covering AI-era hiring trends, interview strategies, CV optimization, and workplace communication skills.
-- **Newsletter Subscription:** Automated email alerts for new job openings.
+- **Newsletter Subscription:** Automated email alerts for new job openings powered by *Newsletter Plugin*.
 
 ### 🏢 2. For Employers
-- **Job Submission Portal (`Submit Job`):** Intuitive multi-step form for publishing new job vacancies with customizable requirements.
+- **Job Submission Portal (`Submit Job`):** Intuitive frontend form for publishing vacancies with customizable requirements and rich fields.
 - **Employer Dashboard:** Centralized panel to manage active postings, review applicants, and update hiring statuses.
-- **Company Profiles:** Dedicated brand landing pages showcasing mission, office culture, and open positions.
+- **Dedicated Company Profiles:** Standalone employer landing pages showcasing company background, culture, and all active vacancies (*WPJM Company Profile Page*).
 
 ### ⚙️ 3. Architecture & Tech Highlights
 - **Containerized Environment:** Fully reproducible local development powered by Docker Compose.
 - **High-Performance Database:** MariaDB 10.11 with persistent volume storage and phpMyAdmin interface.
 - **Customizer & Modular Sections:** Native WordPress Customizer controls allowing section reordering, custom styling, and layout tuning without third-party page builders.
 - **Accessibility (a11y):** Integrated with One Click Accessibility tools ensuring WCAG-compliant readability and navigation.
-- **SMTP & Communications:** Integrated with WP Mail SMTP and Contact Form 7 for reliable transactional email delivery.
+- **Guaranteed Email Delivery:** Integrated with *WP Mail SMTP* and *Contact Form 7* for reliable transactional email delivery (applications, notifications, and inquiries).
+
+---
+
+## 🔌 Integrated Plugins & Functional Ecosystem
+
+The portal leverages an optimized, conflict-free suite of WordPress plugins to power core recruitment workflows, audience engagement, and communication reliability:
+
+| Plugin | Version | Author | Role & Key Value in CareerHub |
+| :--- | :---: | :--- | :--- |
+| **[WP Job Manager](https://wpjobmanager.com/)** | `2.4.8` | Automattic | **Core Recruitment Engine:** Powers job listings, frontend job submissions, AJAX search/filters, and candidate application workflows. |
+| **[WPJM Company Profile Page](https://tilcode.blog/)** | `1.3.0` | Gabriel Maldonado | **Employer Branding:** Adds dedicated company profile pages displaying corporate overviews, branding, and all jobs posted by that company. |
+| **WPJM Extra Fields** | `1.0.0` | Custom Ext. | **Custom Job Metadata:** Extends job schemas with essential fields (salary ranges, experience requirements, work modes: Remote/Hybrid/Onsite). |
+| **[WP Mail SMTP](https://wpmailsmtp.com/)** | `4.10.3` | WP Mail SMTP | **Transactional Email Delivery:** Guarantees application receipts, employer alerts, and system emails reach user inboxes reliably via authenticated SMTP. |
+| **[Newsletter](https://www.thenewsletterplugin.com/)** | `9.4.8` | The Newsletter Team | **Subscriber Engagement:** Manages talent communities, subscription widgets, automated email digests, and job opening alerts. |
+| **[Contact Form 7](https://contactform7.com/)** | `6.2.2` | Rock Lobster Inc. | **Inquiries & Communication:** Powers clean, flexible contact forms for user support and employer partnership requests. |
+| **RaraTheme Companion** | `1.3.5` | RaraTheme | **Theme Functional Modules:** Supplies custom widgets, author boxes, and homepage section controls tailored specifically for the JobScout theme. |
+| **RARA One Click Demo Import** | `1.3.5` | RaraTheme | **Demo Onboarding:** Facilitates rapid demo content and widget structure import. |
 
 ---
 
